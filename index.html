@@ -11,23 +11,29 @@ Info - 600 Assignment 2
 <script type= "text/javascript" src="main.js"></script>
 <body>
 <form name="Studentrecord">
-<h1>Student Record Management</h1>
+		<h1>Student Record Management</h1>
 			<p>
-				<font face="Courier New">
-				Full Name &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-				Major&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-				Start Year&nbsp;&nbsp;&nbsp;&nbsp;</br>
-					<input name="name" size="20" type="text" id="name" Value=" "/>
-					<input name="major" size="20" type="text" id="major" Value=" " />
-					<input name="year" size="20" type="number" id="year" Value=" "/>&nbsp;&nbsp;&nbsp;&nbsp;
-					<button id="test" type="button" onClick="doSubmit()">Add Record</button>
-				</font>
-			</p></form>
-			<table><tr><td>
-			<tr><h2>Entered Records:</h2>
-			</tr>
-			<div  id="records">
-			</div></td></tr></table>
+				<table align="left" style="width:50%; margin:50px auto;border:1px solid black;">
+					<font face="Courier New">
+					<tr style="text-align:left">
+					<th>Full Name</th>
+					<th>Major</th>
+					<th>Start Year</th>
+					</tr>
+					<tr>
+					<td><input name="name" size="20" type="text" id="name" Value=" "/></td>
+					<td><input name="major" size="20" type="text" id="major" Value=" " /></td>
+					<td><input name="year" size="10" type="number" id="year" Value=" "/></td>
+					<td><button id="test" type="button" onClick="doSubmit()">Add Record</button></td>
+					</tr>
+					</font>
+					<tr><td>
+					<h2 style="text-decoration:underline;text-align:left">Entered Records:</h2>
+					<div  id="records">
+					</div></td></tr>
+					</table>
+			</p>
+		</form>
 </body>
 </html>
 
