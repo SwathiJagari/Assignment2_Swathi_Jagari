@@ -7,21 +7,23 @@ button{
 button:hover{
 	background-color:orange;
 	}
+
 button:focus{
 	background-color:red;
 	}
 h1{
 	color:blue;
-	}
-h2{
-	text-decoration:underline;
-	text-align:left;
+	text-align:center;
 	}
 table{
 	margin:50px auto;
-	width:100%;
-	border:1px solid black;
+	width:50%;border:1px solid black;
+	table-align:center;
 	}
 p{
 	color:stateblue;
 	}
+h2{
+	text-decoration:underline;
+	text-align:left
+}
