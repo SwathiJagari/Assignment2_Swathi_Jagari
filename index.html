@@ -13,12 +13,12 @@ Info - 600 Assignment 2
 <form name="Studentrecord">
 		<h1>Student Record Management</h1>
 			<p>
-				<table align="left">
-					<font face="Courier New">
+				<table  style="width:50%; margin:50px auto;border:1px solid black;">
+					<div><font face="Courier New">
 					<tr style="text-align:left">
-					<th>Full Name		</th>
-					<th>Major		</th>
-					<th>Start Year		</th>
+					<th>Full Name</th>
+					<th>Major</th>
+					<th>Start Year</th>
 					</tr>
 					<tr>
 					<td><input name="name" size="20" type="text" id="name" Value=" "/></td>
@@ -26,11 +26,13 @@ Info - 600 Assignment 2
 					<td><input name="year" size="10" type="number" id="year" Value=" "/></td>
 					<td><button id="test" type="button" onClick="doSubmit()">Add Record</button></td>
 					</tr>
-					</font>
-					<tr>
-					<h2>Entered Records:</h2>
+					</font></table>
+					<table style="width:50%; margin:50px auto;border:1px solid black;"><tr><td>
+					</div>
+					<tr><td>
+					<h2 style="text-decoration:underline;text-align:left">Entered Records:</h2>
 					<div  id="records">
-					</div></tr>
+					</div></td></tr>
 					</table>
 			</p>
 		</form>
