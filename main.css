@@ -4,6 +4,9 @@ body{
 button{
 	background-color:lightgrey;
 	}
+button:hover{background-color:orange;}
+
+button:focus{background-color:red;}
 h1{
 	color:blue;
 	}
